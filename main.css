@@ -1,0 +1,39 @@
+h1{
+    color:rgb(5, 0, 0); /*black text color */
+    font-size: 7em; 
+    margin-bottom: 1em; /*adding some space below the heading*/
+    text-shadow: 1px 1px rgb(219, 11, 11);
+    text-decoration-color: black;
+    text-align:center;
+  }
+main{
+    text-align:center;
+    font-size: 2em;
+    }
+
+    footer {
+        display: grid;
+        place-items: center;
+        height: 100px;
+        }
+        li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: rgb(13, 2, 2);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color: #0f798b;
+          }
+          ul {
+            list-style-type: none; /* Remove bullets */
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
