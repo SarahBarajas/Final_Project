@@ -68,3 +68,12 @@ footer {
         button:hover {
             background-color: #45a049; /* Darker green on hover */
         }
+        .game-container {
+          text-align: center;
+          margin: 20px auto;
+          width: fit-content;
+        }
+        
+        table {
+          margin: 0 auto;
+        }
