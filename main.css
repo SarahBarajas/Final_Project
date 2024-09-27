@@ -75,6 +75,52 @@ footer {
        form{
         text-align: center;
        }
-      
-      
-      
+      .product {
+        display: flex;
+        gap: 20px; /* Adjust the gap between products as needed */
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .product img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .product .description {
+        font-size: 1em;
+        margin: 0.5em 0;
+    }
+    
+    .product .price {
+        font-size: 1.2em;
+        color: #4caf50;
+        margin: 0.5em 0;
+    }
+    
+    .product .buy-button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    
+    ol{
+      text-align:center;/*centred ordered list*/
+       margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
