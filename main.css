@@ -124,3 +124,17 @@ footer {
       padding: 0;
       overflow: hidden;
     }
+    .product-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 50%%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the container */
+  }
+  
+  .product {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      width: 100px; /* Adjust the width as needed */
+  }
